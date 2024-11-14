@@ -1,0 +1,15 @@
+runtime: go121
+
+app:
+  name: 'incidentware_chat_server'
+  version: '2.0'
+
+http:
+  port: ':8080'
+  cors:
+    - 'http://localhost:3000'
+
+log:
+  level: 'debug'
+
+
